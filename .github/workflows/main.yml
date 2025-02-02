@@ -1,1 +1,13 @@
-hi
+name: Example Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f1001616@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
